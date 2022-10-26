@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   z-index: 10;
   top: 30px;
   left: 64px;
-  background-image: url('/images/logo_place_header.svg');
+  background-image: url('../images/logo_place_header.svg');
 }
 
 .header__title {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   top: 50%;
   transform: translateY(-45%);
   right: -50%;
-  background: url('/images/right-arrow_icon.svg') center center/cover no-repeat;
+  background: url('../images/right-arrow_icon.svg') center center/cover no-repeat;
 }
 
 .header__main-ilustration {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 .feynman {
   padding-top: 100px;
   min-height: 790px;
-  background-image: url('/images/feynman.png');
+  background-image: url('../images/feynman.png');
   background-color: #f2f2f2;
   background-size: 867px 637px;
   background-position: bottom left;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   top: 50%;
   transform: translateY(-45%);
   right: -20%;
-  background: url('/images/right-arrow_icon.svg') center center/cover no-repeat;
+  background: url('../images/right-arrow_icon.svg') center center/cover no-repeat;
 }
 
 .kaufman {
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 }
 
 .logo_place_footer {
-  background-image: url('/images/logo_place_footer.svg');
+  background-image: url('../images/logo_place_footer.svg');
 }
 
 .footer__author {

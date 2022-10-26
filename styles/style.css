@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6,p {
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   margin: 0;
 }
 .page {
@@ -315,7 +315,7 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 60px 0 40px;
   display: flex;
   justify-content: space-between;
-  height: 250px;
+  min-height: 250px;
   width: 90%;
 }
 

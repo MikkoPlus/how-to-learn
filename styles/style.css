@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  z-index: 1;
 }
 
 .logo {
@@ -36,7 +37,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .logo_place_header {
   position: absolute;
-  z-index: 10;
   top: 30px;
   left: 64px;
   background-image: url('../images/logo_place_header.svg');
@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .header__title {
   position: relative;
-  z-index: 10;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -60,7 +59,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 10;
 }
 
 .header__link {
@@ -68,6 +66,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   text-decoration: none;
   position: relative;
 }
+
+
 
 .header__link::after {
   content: '';
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 5;
+  z-index: -1;
 }
 
 .header__main-ilustration img {
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   top: 64px;
   right: 0;
   background-color: #2f80ed;
-
+  z-index: -2;
 }
 
 .description {
@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   right: 48px;
   color: #2f80ed;
   text-decoration: none;
+  opacity: .8;
 }
 
 .feynman__link::after {
@@ -250,6 +251,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   background: url('../images/right-arrow_icon.svg') center center/cover no-repeat;
 }
 
+
 .kaufman {
   overflow: hidden;
   padding-bottom: 90px;
@@ -262,7 +264,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .kaufman__triangle img {
@@ -272,20 +274,23 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .section_theme_dark {
   padding-top: 90px;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   color: #fff;
   position: relative;
-  z-index: 10;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
   position: relative;
-  z-index: 10;
 }
 
+.table_theme_dark {
+  position: relative;
+  z-index: 1;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -296,13 +301,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 
 .table__heading_theme_dark {
   position: relative;
-  z-index: 2;
   color: #fff;
 }
 
 .table__text_theme_dark {
   position: relative;
-  z-index: 2;
   color: #fff;
 }
 
@@ -361,6 +364,18 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   text-decoration: none;
 }
 
+.hover-link {
+  opacity: .8;
+}
+
+.hover-link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.footer__column-link:hover .footer__social-icon path {
+  fill: #fff;
+}
 .footer__social-icon {
   margin-right: 10px;
 }

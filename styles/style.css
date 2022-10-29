@@ -299,7 +299,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
+  /* align-items:baseline; */
   min-height: 250px;
   width: 90%;
 }

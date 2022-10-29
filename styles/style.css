@@ -352,11 +352,12 @@
 }
 
 .hover-link {
-  opacity: .8;
+  opacity: .9;
 }
 
 .hover-link:hover {
   text-decoration: underline;
+  color: #2f80ed;
   opacity: 1;
 }
 

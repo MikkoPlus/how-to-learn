@@ -65,7 +65,6 @@
 
 .header__link::after {
   content: '\2192';
-  display: flex;
   width: 20px;
   height: 100%;
   display: inline-block;
@@ -229,7 +228,6 @@
 
 .feynman__link::after {
   content: '\2192';
-  display: flex;
   width: 20px;
   height: 100%;
   display: inline-block;

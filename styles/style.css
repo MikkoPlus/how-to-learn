@@ -59,19 +59,18 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  position: relative;
 }
 
 
 
 .header__link::after {
   content: '\2192';
-  display: block;
-  position: relative;
+  display: flex;
   width: 20px;
-  height: 17px;
-  top: -25px;
-  right: -130px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
 }
 
 .header__main-ilustration {
@@ -230,12 +229,12 @@
 
 .feynman__link::after {
   content: '\2192';
-  display: block;
-  position: relative;
-  width: 50px;
-  height: 20px;
-  top: -52px;
-  right: -195px;
+  display: flex;
+  width: 20px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
 }
 
 

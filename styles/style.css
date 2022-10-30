@@ -42,10 +42,11 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  margin-left: 64px;
+  margin:0 0 0 64px;
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   max-width: 388px;
   width: 100%;
@@ -106,6 +107,7 @@
 }
 
 .two-columns__breif {
+  margin: 0;
   max-width: 175px;
   width: 100%;
   line-height: 1.2;

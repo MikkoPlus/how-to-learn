@@ -1,0 +1,10 @@
+.hover-link {
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.hover-link:hover {
+  text-decoration: underline;
+  color: #2f80ed;
+  opacity: .7;
+}

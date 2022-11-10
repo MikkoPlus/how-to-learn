@@ -1,0 +1,3 @@
+.rotate_infinite {
+  animation: rotate 20s infinite running linear;
+}

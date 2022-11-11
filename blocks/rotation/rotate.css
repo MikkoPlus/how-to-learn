@@ -1,8 +1,12 @@
-@keyframes rotate {
+@keyframes rotation {
   form {
     transform: rotate(0);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.rotate {
+  animation: rotation 20s running linear;
 }

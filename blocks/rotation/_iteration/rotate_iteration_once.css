@@ -1,0 +1,4 @@
+.rotate_iteration_once {
+  animation: rotate 20s running linear;
+  animation-iteration-count: 1;
+}

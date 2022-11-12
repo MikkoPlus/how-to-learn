@@ -1,4 +1,4 @@
-@keyframes rotation {
+@keyframes rotate {
   form {
     transform: rotate(0);
   }
@@ -7,6 +7,6 @@
   }
 }
 
-.rotate {
-  animation: rotation 20s running linear;
+.rotation {
+  animation: rotate 20s running linear infinite;
 }

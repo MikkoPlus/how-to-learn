@@ -1,8 +1,0 @@
-.link-arrow::after {
-  content: '\2192';
-  width: 20px;
-  height: 100%;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 5px;
-}
